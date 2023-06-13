@@ -52,6 +52,7 @@
             this.label12 = new System.Windows.Forms.Label();
             this.rt_acerto = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.rt = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -258,7 +259,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Verdana", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(439, 386);
+            this.label12.Location = new System.Drawing.Point(12, 390);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(213, 20);
             this.label12.TabIndex = 21;
@@ -281,9 +282,19 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(96, 51);
             this.button1.TabIndex = 24;
-            this.button1.Text = "acertos";
+            this.button1.Text = "Calcular";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // rt
+            // 
+            this.rt.AutoSize = true;
+            this.rt.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rt.Location = new System.Drawing.Point(243, 393);
+            this.rt.Name = "rt";
+            this.rt.Size = new System.Drawing.Size(62, 20);
+            this.rt.TabIndex = 25;
+            this.rt.Text = "label13";
             // 
             // Gabarito
             // 
@@ -291,6 +302,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGray;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.rt);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.rt_acerto);
             this.Controls.Add(this.label12);
@@ -348,5 +360,6 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label rt_acerto;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label rt;
     }
 }

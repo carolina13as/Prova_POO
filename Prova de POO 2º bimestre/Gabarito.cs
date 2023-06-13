@@ -16,55 +16,12 @@ namespace Prova_de_POO_2º_bimestre
         {
             InitializeComponent();
             rt_acerto.Text = "";
+            rt.Text = "";
         }
 
         private void acerto_Click(object sender, EventArgs e)
         {
-            int acertos = 0;
-
-            string[] gab = { "A","B","D","E","C","A","A","B","E","B"};
-            if(txt1.Text == gab[0])
-            {
-                acertos++;
-            }
-            else if(txt2.Text == gab[1])
-            {
-                acertos++;
-            }
-            else if(txt3.Text == gab[2])
-            {
-                acertos++;
-            }
-            else if (txt4.Text == gab[3])
-            {
-                acertos++;
-            }
-            else if (txt5.Text == gab[4])
-            {
-                acertos++;
-            }
-            else if (txt6.Text == gab[5])
-            {
-                acertos++;
-            }
-            else if (txt7.Text == gab[6])
-            {
-                acertos++;
-            }
-            else if (txt8.Text == gab[7])
-            {
-                acertos++;
-            }
-            else if (txt9.Text == gab[8])
-            {
-                acertos++;
-            }
-            else if (txt10.Text == gab[9])
-            {
-                acertos++;
-            }
             
-            rt_acerto.Text = Convert.ToString(acertos);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -73,110 +30,75 @@ namespace Prova_de_POO_2º_bimestre
             int sm = 0;
             try
             {
-                string[] gab = { "A", "B", "D", "E", "C", "A", "A", "B", "E", "B" };
+                string[] gab = { "A", "B", "D", "E", "C", "A", "A", "D", "E","B" };
                 for (int i = 0; i < gab.Length; i++)
                 {
-                    if (txt1.Text == gab[0])
+                    acertos = 0;
+                    if (txt1.Text.ToUpper() == gab[0])
                     {
                         acertos++;
-                        break;
+                        
                     }
-                    if (txt2.Text == gab[1])
+                    if (txt2.Text.ToUpper() == gab[1])
                     {
                         acertos++;
-                        break;
+                       
                     }
-                    if (txt3.Text == gab[2])
+                    
+                    if (txt3.Text.ToUpper() == gab[2])
+                    {
+                        acertos++;                        
+                    }
+                    
+                    if (txt4.Text.ToUpper() == gab[3])
                     {
                         acertos++;
-                        break;
+                        
                     }
-                    if (txt4.Text == gab[3])
+                    if (txt5.Text.ToUpper() == gab[4])
                     {
                         acertos++;
-                        break;
+                       
                     }
-                    if (txt5.Text == gab[4])
+                    if (txt6.Text.ToUpper() == gab[5])
+                    {
+                        acertos ++;
+                       
+                    }
+                    if (txt7.Text.ToUpper() == gab[6])
                     {
                         acertos++;
-                        break;
+                        
                     }
-                    if (txt6.Text == gab[5])
-                    {
-                        acertos += acertos;
-                    }
-                    if (txt7.Text == gab[6])
+                    if (txt8.Text.ToUpper() == gab[7])
                     {
                         acertos++;
-                        break;
+                       
                     }
-                    if (txt8.Text == gab[7])
+                    if (txt9.Text.ToUpper() == gab[8])
                     {
                         acertos++;
-                        break;
+                        
                     }
-                    if (txt9.Text == gab[8])
+                    if (txt10.Text.ToUpper() == gab[9])
                     {
                         acertos++;
+                        
                         break;
                     }
-                    if (txt10.Text == gab[9])
-                    {
-                        acertos++;
-                        break;
 
-                    }
-
+                   
                 }
-                MessageBox.Show($"{acertos}");
+
+                rt.Text = Convert.ToString(acertos);
+                
             }
             catch(Exception ex)
             {
-                Console.WriteLine("Tem que ser letra maiscula");
+                MessageBox.Show("Tem que ser letra maiscula");
             }
             
 
-            /*
-            else if (txt2.Text == gab[1])
-            {
-                acertos += acertos;
-            }
-            else if (txt3.Text == gab[2])
-            {
-                acertos += acertos;
-            }
-            else if (txt4.Text == gab[3])
-            {
-                acertos += acertos;
-            }
-            else if (txt5.Text == gab[4])
-            {
-                acertos += acertos; 
-            }
-            else if (txt6.Text == gab[5])
-            {
-                acertos += acertos;
-            }
-            else if (txt7.Text == gab[6])
-            {
-                acertos += acertos;
-            }
-            else if (txt8.Text == gab[7])
-            {
-                acertos += acertos;
-            }
-            else if (txt9.Text == gab[8])
-            {
-                acertos += acertos;
-            }
-            else if (txt10.Text == gab[9])
-            {
-                acertos += sm;
-                MessageBox.Show($"{acertos}");
-
-            }
-            */
-            //MessageBox.Show($"{acertos}");
         }
     }
 }
