@@ -1,0 +1,12 @@
+C:\Users\carol\OneDrive\Documentos\ifro\tarefas do 2º\Po2\Prova de POO 2º bimestre\Prova de POO 2º bimestre\bin\Debug\Prova de POO 2º bimestre.exe.config
+C:\Users\carol\OneDrive\Documentos\ifro\tarefas do 2º\Po2\Prova de POO 2º bimestre\Prova de POO 2º bimestre\bin\Debug\Prova de POO 2º bimestre.exe
+C:\Users\carol\OneDrive\Documentos\ifro\tarefas do 2º\Po2\Prova de POO 2º bimestre\Prova de POO 2º bimestre\bin\Debug\Prova de POO 2º bimestre.pdb
+C:\Users\carol\OneDrive\Documentos\ifro\tarefas do 2º\Po2\Prova de POO 2º bimestre\Prova de POO 2º bimestre\obj\Debug\Prova de POO 2º bimestre.csproj.AssemblyReference.cache
+C:\Users\carol\OneDrive\Documentos\ifro\tarefas do 2º\Po2\Prova de POO 2º bimestre\Prova de POO 2º bimestre\obj\Debug\Prova de POO 2º bimestre.csproj.SuggestedBindingRedirects.cache
+C:\Users\carol\OneDrive\Documentos\ifro\tarefas do 2º\Po2\Prova de POO 2º bimestre\Prova de POO 2º bimestre\obj\Debug\Prova_de_POO_2º_bimestre.Form1.resources
+C:\Users\carol\OneDrive\Documentos\ifro\tarefas do 2º\Po2\Prova de POO 2º bimestre\Prova de POO 2º bimestre\obj\Debug\Prova_de_POO_2º_bimestre.Gabarito.resources
+C:\Users\carol\OneDrive\Documentos\ifro\tarefas do 2º\Po2\Prova de POO 2º bimestre\Prova de POO 2º bimestre\obj\Debug\Prova_de_POO_2º_bimestre.Properties.Resources.resources
+C:\Users\carol\OneDrive\Documentos\ifro\tarefas do 2º\Po2\Prova de POO 2º bimestre\Prova de POO 2º bimestre\obj\Debug\Prova de POO 2º bimestre.csproj.GenerateResource.cache
+C:\Users\carol\OneDrive\Documentos\ifro\tarefas do 2º\Po2\Prova de POO 2º bimestre\Prova de POO 2º bimestre\obj\Debug\Prova de POO 2º bimestre.csproj.CoreCompileInputs.cache
+C:\Users\carol\OneDrive\Documentos\ifro\tarefas do 2º\Po2\Prova de POO 2º bimestre\Prova de POO 2º bimestre\obj\Debug\Prova de POO 2º bimestre.exe
+C:\Users\carol\OneDrive\Documentos\ifro\tarefas do 2º\Po2\Prova de POO 2º bimestre\Prova de POO 2º bimestre\obj\Debug\Prova de POO 2º bimestre.pdb
